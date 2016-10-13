@@ -7,22 +7,24 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity"
-    android:background="@drawable/bg27"
-    android:onClick="buttononClick">
+    tools:context="appewtc.masterung.wherepbru.ActivityAdmin"
+    android:background="@drawable/bg27">
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/linearLayout5">
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout9">
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="56dp"
-            android:text="@string/pbru"
-            android:id="@+id/textView8"
-            android:textSize="@dimen/h1" />
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/admin"
+            android:id="@+id/textView9"
+            android:textSize="@dimen/h1"
+            android:layout_gravity="center_horizontal" />
     </LinearLayout>
 
     <LinearLayout
@@ -30,95 +32,84 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:weightSum="1"
-        android:id="@+id/linearLayout"
-        android:layout_below="@+id/linearLayout5"
-        android:layout_centerHorizontal="true">
+        android:id="@+id/linearLayout6"
+        android:layout_below="@+id/linearLayout9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp">
 
         <ImageView
             android:layout_width="192dp"
             android:layout_height="192dp"
-            android:id="@+id/imageView2"
+            android:id="@+id/imageView3"
             android:layout_centerHorizontal="true"
             android:background="@drawable/$R1DFFDT"
             android:adjustViewBounds="true"
             android:nestedScrollingEnabled="false" />
-
     </LinearLayout>
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/linearLayout2"
+        android:id="@+id/linearLayout7"
         android:background="#ffffff"
-        android:layout_above="@+id/linearLayout3"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginBottom="28dp">
+        android:layout_below="@+id/linearLayout6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="33dp">
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/editText2"
+            android:id="@+id/editText9"
             android:layout_gravity="center_horizontal"
-            android:hint="@string/user_id" />
-
+            android:hint="@string/admin_id" />
     </LinearLayout>
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/linearLayout3"
+        android:id="@+id/linearLayout8"
         android:background="#ffffff"
-        android:layout_above="@+id/button4"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="27dp">
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/linearLayout7"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:ems="10"
-            android:id="@+id/editText3"
-            android:hint="@string/password" />
+            android:id="@+id/editText10"
+            android:hint="@string/password1" />
     </LinearLayout>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/sing_in"
-        android:id="@+id/button4"
+        android:text="@string/register"
+        android:id="@+id/button2"
         android:onClick="buttomonClick"
         android:textSize="@dimen/h2"
-        android:layout_above="@+id/linearLayout4"
-        android:layout_centerHorizontal="true" />
+        android:layout_weight="0"
+        android:layout_alignTop="@+id/button8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
-    <LinearLayout
-        android:orientation="horizontal"
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="@string/sing_in"
+        android:id="@+id/button8"
+        android:onClick="buttomonClick"
+        android:textSize="@dimen/h2"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:id="@+id/linearLayout4">
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/admin"
-            android:id="@+id/button5"
-            android:layout_weight="1"
-            android:onClick="buttomonClick2" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/register"
-            android:id="@+id/button6"
-            android:layout_weight="1"
-            android:onClick="buttomonClick1" />
-    </LinearLayout>
+        android:layout_weight="4.42"
+        android:layout_alignRight="@+id/linearLayout8"
+        android:layout_alignEnd="@+id/linearLayout8"
+        android:layout_toRightOf="@+id/button2"
+        android:layout_toEndOf="@+id/button2" />
 
 </RelativeLayout>

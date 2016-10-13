@@ -36,4 +36,9 @@ public class MainActivity extends AppCompatActivity {
         nextPage.putExtra("PARAM", "Every man fight his own wars");
         startActivity(nextPage);
     }
+    public void buttomonClick2(View v) {
+        Intent nextPage = new Intent(MainActivity.this, ActivityAdmin.class);
+        nextPage.putExtra("PARAM", "Every man fight his own wars");
+        startActivity(nextPage);
+    }
 }

@@ -14,5 +14,6 @@
     <string name="admin_id">รหัสเจ้าหน้าที่</string>
     <string name="admin_B">ว/ด/ป เกิด</string>
     <string name="password1">รหัสผ่านเจ้าหน้าที่</string>
+    <string name="sing_in">ล็อกอิน</string>
 
 </resources>
