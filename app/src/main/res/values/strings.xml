@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Where PBRU</string>
+
+    <string name="seartroom">หมายเลยห้อง</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="pbru">ระบบสืบค้นและระบุตำแหน่ง</string>
+    <string name="admin">สำหรับเจ้าหน้าที่</string>
+    <string name="register">สมัครสมาชิก</string>
+    <string name="user_id">รหัสผู้ใช้</string>
+    <string name="user_name">ชื่อ-นามสกุล</string>
+    <string name="email">อีเมล</string>
+    <string name="password">รหัสผ่านผู้ใช้</string>
+    <string name="phone">เบอร์โทร</string>
+
+</resources>
