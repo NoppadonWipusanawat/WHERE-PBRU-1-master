@@ -42,7 +42,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/editText2"
             android:layout_gravity="center_horizontal"
-            android:hint="user" />
+            android:hint="@string/user_id" />
 
     </LinearLayout>
 
@@ -63,7 +63,7 @@
             android:inputType="textPassword"
             android:ems="10"
             android:id="@+id/editText3"
-            android:hint="password" />
+            android:hint="@string/password" />
     </LinearLayout>
 
     <Button
@@ -87,14 +87,14 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New Button"
+            android:text="@string/admin"
             android:id="@+id/button5"
             android:layout_weight="1" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Register"
+            android:text="@string/register"
             android:id="@+id/button6"
             android:layout_weight="1"
             android:onClick="buttomonClick1" />
